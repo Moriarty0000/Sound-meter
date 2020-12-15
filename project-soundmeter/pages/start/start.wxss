@@ -1,0 +1,22 @@
+.canvas{
+  width: 100%;
+  height: 400rpx
+}
+#chart{
+  top: 20rpx
+}
+
+.position{
+  diaplay:flex;
+  justify-content:center;
+}
+.font1{
+  font-size:80px;
+  text-align:center;
+  color:red;
+}
+.font2{
+  font-size:80px;
+  text-align:center;
+  color:black;
+}

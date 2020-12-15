@@ -1,0 +1,7 @@
+<canvas class = "canvas" id="chart"
+canvas-id="dB"></canvas>
+<view style="margin-top:25px">当前环境音量</view>
+<view style="margin-top:25px" class="position">
+  <view wx:if="{{vol>43}}" class="font1">{{vol}}</view>
+  <view wx:if="{{vol<=43}}" class="font2">{{vol}}</view>
+</view>
